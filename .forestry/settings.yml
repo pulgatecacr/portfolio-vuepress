@@ -11,9 +11,10 @@ sections:
   - settings
 - type: directory
   path: portfolio/works
-  label: Works
+  label: Proyectos
   create: all
   match: "**/*"
+  new_doc_ext: ".md"
   templates:
   - works
 - type: directory
