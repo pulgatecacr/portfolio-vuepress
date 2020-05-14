@@ -4,6 +4,11 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
+- type: directory
+  path: About
+  label: Quiénes Somos
+  create: all
+  match: "**/*"
 - type: document
   path: portfolio/index.md
   label: Homepage
@@ -14,7 +19,7 @@ sections:
   label: Proyectos
   create: all
   match: "**/*"
-  new_doc_ext: md
+  new_doc_ext: ".md"
   templates:
   - works
 - type: directory
