@@ -14,7 +14,7 @@ sections:
   label: Proyectos
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
+  new_doc_ext: md
   templates:
   - works
 - type: directory
