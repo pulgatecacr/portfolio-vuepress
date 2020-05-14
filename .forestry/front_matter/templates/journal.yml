@@ -19,3 +19,5 @@ fields:
   type: datetime
   config:
     required: true
+pages:
+- About/hola-wwe.md
