@@ -4,11 +4,6 @@ auto_deploy: true
 admin_path: "/admin"
 webhook_url: 
 sections:
-- type: directory
-  path: About
-  label: Quiénes Somos
-  create: all
-  match: "**/*"
 - type: document
   path: portfolio/index.md
   label: Homepage
@@ -29,6 +24,11 @@ sections:
   match: "**/[!index]*"
   templates:
   - journal
+- type: directory
+  path: About
+  label: Quiénes Somos
+  create: all
+  match: "**/*"
 - type: heading
   label: Data
 - type: document
